@@ -1,9 +1,10 @@
+print("The basic calculator ")
 def numbers_to_strings(a,b,s):
     switcher = {
-        add: print(a+b),
-        sub: print(a-b),
-        div: print(a/b),
-        mul: print(a*b)
+        '+': a+b,
+        '-': a-b,
+        '/': a//b,
+        '*': a*b
     }
     # get() method of dictionary data type returns
     # value of passed argument if it is present
@@ -13,7 +14,6 @@ def numbers_to_strings(a,b,s):
 # Main program
 if __name__ == "__main__":
     print("Enter your numbers: ")
-    a,b=int(input()).split()
+    a,b=map(int,input().split())
     s=input()
     print (numbers_to_strings(a,b,s))
-    print("My name is ")
