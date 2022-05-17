@@ -1,0 +1,1 @@
+print ("This file is created to check python version")
