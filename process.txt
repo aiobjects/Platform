@@ -1,0 +1,22 @@
+Fork the upstream repository
+git clone repo URL (My URL)
+
+to create and switch the branches
+git checkout -b feature/test
+
+
+do the changes in file
+git add .
+git commit -m "added files" 
+
+
+git push origin feature/test
+
+to delete branches locally
+git branch -D branch_name
+
+to delete branch remotely
+git push origin --Delete branch_name
+
+
+
