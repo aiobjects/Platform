@@ -1,5 +1,5 @@
 git config --global user.name "manas"
-git config --global user.mail "manasa.devopsengineer@gmail.com"
+git config --global user.email "manasa.devopsengineer@gmail.com"
 git config --list
 git remote -v
 git remote add upstream organization_URL
