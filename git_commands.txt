@@ -1,0 +1,3 @@
+git stash
+Is used to store the data temporarily
+
